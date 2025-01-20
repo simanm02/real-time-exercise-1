@@ -8,13 +8,6 @@ import (
 	"time"
 )
 
-var i = 0
-
-type Request struct {
-	action string
-	result chan int
-}
-
 func numberServer(increment, decrement, get chan struct{}, result chan int) {
 	var i int
 
