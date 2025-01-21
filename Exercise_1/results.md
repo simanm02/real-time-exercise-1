@@ -1,0 +1,1 @@
+3: The result is not zero because lost update  and things like that can occur because the adding and subtracting of the value is not atomic.
